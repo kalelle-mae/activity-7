@@ -1,0 +1,250 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Forms | Act 7</title>
+</head>
+
+<body background="bg.png" style="font-family: Arial;">
+
+    <table frame="void" align="center">
+        <center>
+            <H1>APPETIZERS</H1>
+        </center>
+        <tr>
+            <td align="center">
+                <h4>MUSSELS LOMBARDI</h4>
+                <img src="mussels.png" width="150">
+            </td>
+            <td colspan="1" width="500"></td>
+            <td align="center">
+                <h4>SPINACH AND ARTICHOKE FORMAGGIO</h4>
+                <img src="spinach.png" width="150">
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td align="center">
+                <h4>ITALIAN STUFFED MUSHROOMS</h4>
+                <img src="mushrooms.png" width="150">
+            </td>
+            <td></td>
+        </tr>
+    </table>
+
+    <hr width="70%" color="green" size="3">
+
+    <table frame="void" align="center">
+        <center>
+            <H1>PASTAS</H1>
+        </center>
+        <tr>
+            <td align="center">
+                <h4>SPAGHETTI AND MEATBALLS</h4>
+                <img src="spaghetti.png" width="150">
+            </td>
+            <td colspan="1" width="500"></td>
+            <td align="center">
+                <h4>PESTO RIGATONI</h4>
+                <img src="pesto-rigatoni.png" width="200">
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td align="center">
+                <h4>TRUFFLE CHICKEN AND MUSHROOM</h4>
+                <img src="truffle-pasta.png" width="200">
+            </td>
+            <td></td>
+        </tr>
+    </table>
+
+    <hr width="70%" color="green" size="3">
+
+    <table frame="void" align="center">
+        <center>
+            <H1>MAIN DISHES</H1>
+        </center>
+        <tr>
+            <td align="center">
+                <h4>PARMESAN CRUSTED FISH FILLET</h4>
+                <img src="fish-fillet.png" width="150">
+            </td>
+            <td colspan="1" width="500"></td>
+            <td align="center">
+                <h4>SEAFOOD STEW</h4>
+                <img src="stew.png" width="200">
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td align="center">
+                <h4>BABY BACK RIBS</h4>
+                <img src="usda-ribeye.png" width="200">
+            </td>
+            <td></td>
+        </tr>
+    </table>
+
+    <center>
+        <h1>RESTAURANT ORDER FORM</h1>
+        <font size="6">
+            <table border="3" bgcolor="white" width="600" cellspacing="5" cellpadding="10">
+                <tr bgcolor="#c1e1c1">
+                    <td colspan="3" align="center"><b>APPETIZERS<b></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" id="app1" name="app1" value="fish"></td>
+                    <td>
+                        <label for="main1">PARMESAN CRUSTED FISH FILLET</label><br>
+                        <label>Price: ₱725</label>
+                    </td>
+                    <td><input type="number" name="qty7" min="1" max="5" placeholder="Qty"></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" id="app12" name="app2" value="stew"></td>
+                    <td>
+                        <label for="main2">SEAFOOD STEW</label><br>
+                        <label>Price: ₱795</label>
+                    </td>
+                    <td><input type="number" name="qty8" min="1" max="5" placeholder="Qty"></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" id="app13" name="app1" value="ribs"></td>
+                    <td>
+                        <label for="main3">BABY BACK RIBS</label><br>
+                        <label>Price: ₱950</label>
+                    </td>
+                    <td><input type="number" name="qty9" min="1" max="5" placeholder="Qty"></td>
+                </tr>
+                <tr bgcolor="#c1e1c1">
+                    <td colspan="3" align="center">
+                            <font size="4">
+                            <input type="submit" value="Submit Appetizer Order/s">
+                        </font>
+                    </td>
+                </tr>
+            </table>
+
+            <br><br>
+
+            <table border="3" bgcolor="white" width="600" cellspacing="5" cellpadding="10">
+                <tr bgcolor="#c1e1c1">
+                    <td colspan="3" align="center"><b>PASTAS<b></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" id="pasta1" name="pasta1" value="sicilian"></td>
+                    <td>
+                        <label for="sal1">SPAGHETTI & MEATBALLS</label><br>
+                        <label>Price:
+                            <select id="price1" name="price1">
+                                <option value="645">₱485</option>
+                                <option value="855">₱725</option>
+                                <option value="855">₱995</option>
+                            </select>
+                        </label>
+                    </td>
+                    <td><input type="number" name="qty4" min="1" max="5" placeholder="Qty"></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" id="pasta2" name="pasta2" value="caesar"></td>
+                    <td>
+                        <label for="pasta2">PESTO RIGATONI</label><br>
+                        <label>Price:
+                            <select id="price4" name="price4">
+                                <option value="445">₱445</option>
+                                <option value="685">₱685</option>
+                            </select>
+                        </label>
+                    </td>
+                    <td><input type="number" name="qty5" min="1" max="5" placeholder="Qty"></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" id="pasta3" name="pasta3" value="4seasons"></td>
+                    <td>
+                        <label for="pasta3">TRUFFLE CHICKEN & MUSHROOM</label><br>
+                        <label>Price:
+                            <select id="price5" name="price5">
+                                <option value="495">₱495</option>
+                                <option value="785">₱785</option>
+                            </select>
+                        </label>
+                    </td>
+                    <td><input type="number" name="qty6" min="1" max="5" placeholder="Qty"></td>
+                </tr>
+                <tr bgcolor="#c1e1c1">
+                    <td colspan="3" align="center">
+                        <font size="6">
+                            <input type="submit" value="Submit Salad Order/s">
+                        </font>
+                    </td>
+                </tr>
+            </table>
+
+            <br><br>
+
+            <table border="3" bgcolor="white" width="600" cellspacing="5" cellpadding="10">
+                <tr bgcolor="#c1e1c1">
+                    <td colspan="3" align="center"><b>MAIN DISHES<b></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" id="main1" name="main1" value="fish"></td>
+                    <td>
+                        <label for="main1">PARMESAN CRUSTED FISH FILLET</label><br>
+                        <label>Price: 
+                            <select id="price5" name="price5">
+                                <option value="495">₱595</option>
+                                <option value="785">₱795</option>
+                            </select>
+                        </label>
+                    </td>
+                    <td><input type="number" name="qty7" min="1" max="5" placeholder="Qty"></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" id="main2" name="main2" value="stew"></td>
+                    <td>
+                        <label for="main2">SEAFOOD STEW</label><br>
+                        <label>Price:
+                            <select id="price5" name="price5">
+                                <option value="785">₱795</option>
+                            </select>
+                        </label>
+                    </td>
+                    <td><input type="number" name="qty8" min="1" max="5" placeholder="Qty"></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" id="main3" name="main3" value="ribs"></td>
+                    <td>
+                        <label for="main3">BABY BACK RIBS</label><br>
+                        <label>Price:
+                            <select id="price5" name="price5">
+                                <option value="495">₱1,265</option>
+                                <option value="785">₱2,045</option>
+                            </select>
+                        </label>
+                        
+                    </td>
+                    <td><input type="number" name="qty9" min="1" max="5" placeholder="Qty"></td>
+                </tr>
+                <tr bgcolor="#c1e1c1">
+                    <td colspan="3" align="center">
+                            <font size="4">
+                            <input type="submit" value="Submit Main DIsh Order/s">
+                        </font>
+                    </td>
+                </tr>
+            </table>
+
+            <br><br>
+            <font size="6">
+                <a href="homepage.html">
+                    Thanks for purchasing! You may now log out
+                </a>
+            </font>
+
+        </font>
+    </center>
+
+</body>
+
+</html>
